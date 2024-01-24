@@ -8,7 +8,7 @@ interface props {
 const FormContainer = ({ children }: props) => {
   return (
     <>
-      <Container className="py-3">
+      <Container className="py-3 ">
         <Row className="justify-content-md-center">
           <Col xs={12} md={6}>
             {children}

@@ -1,6 +1,6 @@
 // import { useState } from "react";
 import "./App.css";
-import Footer from "./components/footer";
+// import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 import Container from "react-bootstrap/Container";
 import { Routes, Route } from "react-router-dom";
@@ -13,7 +13,7 @@ function App() {
     <>
       <Navbar />
       <main>
-        <Container >
+        <Container className="mainContainer" >
           <Routes>
             <Route path="/" Component={Homescreen}></Route>
           </Routes>
@@ -25,7 +25,7 @@ function App() {
           </Routes>
         </Container>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
